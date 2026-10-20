@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body, #root { min-height: 100%; background-color: #060912; color: #e6ecf5; }
+body { font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+
+@layer components {
+  .card { @apply rounded-2xl border border-line bg-bg-card; }
+  .card-elevated { @apply rounded-2xl border border-line bg-bg-elevated; }
+  .btn-primary { @apply inline-flex items-center justify-center gap-2 rounded-xl bg-brand px-5 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-dark active:scale-[0.98] shadow-glow; }
+  .btn-ghost { @apply inline-flex items-center justify-center gap-2 rounded-xl border border-line bg-transparent px-5 py-3.5 text-sm font-semibold text-white transition hover:bg-white/5; }
+  .input { @apply w-full rounded-xl border border-line bg-bg-elevated px-4 py-3.5 text-sm text-white placeholder:text-slate-500 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/30; }
+  .label { @apply mb-1.5 block text-xs font-medium text-slate-400; }
+  .chip { @apply inline-flex items-center rounded-full border border-line bg-bg-elevated px-4 py-1.5 text-xs font-medium text-slate-300 transition; }
+  .chip-active { @apply border-brand bg-brand text-white; }
+}

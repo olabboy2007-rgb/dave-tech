@@ -1,0 +1,60 @@
+export const courses = [
+  {
+    slug: 'web-development', title: 'Web Development', category: 'Web Dev', popular: true,
+    tagline: 'Learn to build modern websites using HTML, CSS, JavaScript and more.',
+    duration: '6 weeks', feeRange: '₦50,000 – ₦80,000', fee: 50000, attendance: ['Online', 'Physical'],
+    schedule: 'Mon, Wed, Fri (Flexible)',
+    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop',
+    learn: ['HTML5 & semantic structure', 'CSS3 & responsive design', 'JavaScript fundamentals', 'Build real-world projects'],
+  },
+  {
+    slug: 'graphic-design', title: 'Graphic Design', category: 'Design', popular: false,
+    tagline: 'CorelDRAW, branding, flyers and more.',
+    duration: '4 weeks', feeRange: '₦35,000 – ₦60,000', fee: 35000, attendance: ['Online', 'Physical'],
+    schedule: 'Tue, Thu (Flexible)',
+    image: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&auto=format&fit=crop',
+    learn: ['Design principles', 'CorelDRAW & Illustrator', 'Brand identity', 'Print & social assets'],
+  },
+  {
+    slug: 'ui-ux-design', title: 'UI/UX Design', category: 'Design', popular: false,
+    tagline: 'Design better digital experiences.',
+    duration: '6 weeks', feeRange: '₦45,000 – ₦75,000', fee: 45000, attendance: ['Online', 'Physical'],
+    schedule: 'Mon, Wed (Flexible)',
+    image: 'https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800&auto=format&fit=crop',
+    learn: ['User research', 'Wireframing & prototyping', 'Figma', 'Usability testing'],
+  },
+  {
+    slug: 'video-editing', title: 'Video Editing', category: 'Video', popular: false,
+    tagline: 'Edit, create, and tell your story.',
+    duration: '4 weeks', feeRange: '₦30,000 – ₦55,000', fee: 30000, attendance: ['Online', 'Physical'],
+    schedule: 'Tue, Sat (Flexible)',
+    image: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&auto=format&fit=crop',
+    learn: ['Premiere Pro & CapCut', 'Cuts & pacing', 'Sound & color', 'Motion graphics basics'],
+  },
+  {
+    slug: 'photo-editing', title: 'Photo Editing', category: 'Photo', popular: false,
+    tagline: 'Retouch, composite, and create with confidence.',
+    duration: '3 weeks', feeRange: '₦25,000 – ₦45,000', fee: 25000, attendance: ['Online'],
+    schedule: 'Wed, Fri (Flexible)',
+    image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&auto=format&fit=crop',
+    learn: ['Photoshop & Lightroom', 'Retouching', 'Color grading', 'Compositing'],
+  },
+  {
+    slug: 'ai-tools-productivity', title: 'AI Tools & Productivity', category: 'AI', popular: true,
+    tagline: 'Use modern AI tools to 10x your work.',
+    duration: '4 weeks', feeRange: '₦40,000 – ₦65,000', fee: 40000, attendance: ['Online', 'Physical'],
+    schedule: 'Sat (Flexible)',
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&auto=format&fit=crop',
+    learn: ['Prompt engineering', 'Automations', 'Content workflows', 'Business use cases'],
+  },
+  {
+    slug: 'digital-marketing', title: 'Digital Marketing', category: 'Marketing', popular: false,
+    tagline: 'Grow brands with content, ads, and data.',
+    duration: '6 weeks', feeRange: '₦45,000 – ₦70,000', fee: 45000, attendance: ['Online', 'Physical'],
+    schedule: 'Mon, Thu (Flexible)',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop',
+    learn: ['Content strategy', 'Meta & Google Ads', 'SEO basics', 'Analytics'],
+  },
+]
+
+export const courseCategories = ['All', 'Web Dev', 'Design', 'AI', 'Video', 'Photo', 'Marketing']
